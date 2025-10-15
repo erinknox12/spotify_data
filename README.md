@@ -11,8 +11,12 @@ The dataset was sourced from Kaggle and can be accessed via the following link: 
 ## Exploratory Data Analysis (EDA)
 The exploratory data analysis revealed moderate correlations between some features, such as a positive correlation between danceability and valence, and a negative correlation between energy and acousticness. The distribution of the number of streams was skewed, requiring a log transformation for better analysis.
 
+![Code Snippet of EDA - Correlation](eda_code_snippet.png)
+
 The dataset consists of 943 observations and 27 variables, out of which key numeric variables such as danceability, energy, valence, acousticness, and liveness will be used as predictors in the classification models. The outcome of interest is the popularity class, which has three categories: high, medium, and low popularity. These categories were derived by calculating the 33rd and 66th percentiles for the number of streams and Spotify playlists. Songs were classified as follows:
 Low popularity: Songs in the lower third of streams and playlists. Medium popularity: Songs between the 33rd and 66th percentiles. High popularity: Songs in the upper third of streams and playlists. The distribution of popularity categories shows that 266 songs are classified as high popularity, 218 as low popularity, and 468 as medium popularity, indicating a slight imbalance favoring the medium category.
+
+![Code Snippet of Stream Histogram EDA](eda_code_snippet_2.png)
 
 ## Results
 Insert images
