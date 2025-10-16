@@ -19,7 +19,10 @@ Low popularity: Songs in the lower third of streams and playlists. Medium popula
 ![Code Snippet of Stream Histogram EDA](eda_code_snippet_2.png)
 
 ## Results
-Insert images
+![Code Snippet of Results](code_snippet_1.png)
+![Code Snippet of Results](code_snippet_2.png)
+![Code Snippet of Results](code_snippet_3.png)
+
 
 ## Conclusions
 Among the models compared, LDA and SVM performed similarly, with accuracy just under 50%, but both struggled to classify high and low popularity songs. QDA performed slightly worse, while KNN had the highest misclassification rate, even after cross-validation.
